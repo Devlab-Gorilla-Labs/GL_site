@@ -11,12 +11,11 @@ const mission = () => {
                 <div className="row row--30">
                     <div className="col-lg-6">
                         <div className="mission-title">
-                            <h2 className="title">Unique Mission <br /> {" "}
+                            <h2 className="title">Nuestra <br /> {" "}
                                 <Typed className="theme-gradient"
                                     strings={[
-                                        "Consulting.",
-                                        "Vission.",
-                                        "Agency.",
+                                        "Vision y",
+                                        "Mision.",
                                     ]}
                                     typeSpeed={80}
                                     backSpeed={5}

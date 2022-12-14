@@ -28,8 +28,8 @@ const Nav = () => {
             </li>
 
             <li><Link to="/web-design">Website</Link></li>
-            <li><Link to="/mobil-app">Apps</Link></li>
             <li><Link to="/e-commerce">E-Commerce</Link></li>
+            <li><Link to="/mobil-app">Apps</Link></li>
 
 
 

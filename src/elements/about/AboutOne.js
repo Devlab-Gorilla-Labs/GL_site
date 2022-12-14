@@ -15,12 +15,13 @@ const AboutOne = () => {
                     <div className="col-lg-7 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="section-title">
-                                <h2 className="title">Unique Business <br /> {" "}
+                                <h2 className="title">Tecnologia a tu Alcance <br /> {" "}
                                     <Typed className="theme-gradient"
                                         strings={[
-                                            "Consulting.",
-                                            "Finance.",
-                                            "Agency.",
+                                            "Cd Juarez, Chih",
+                                            "El Paso, Tx",
+                                            "Chihuhua, Chih",
+                                            "Sacramento, CA",
                                         ]}
                                         typeSpeed={80}
                                         backSpeed={5}
@@ -28,16 +29,26 @@ const AboutOne = () => {
                                         loop
                                     />
                                 </h2>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. They live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences </p>
+                                <p>
+                                    Somos una startup Chihuahuenes y 100% Mexicana, dedicada al Desarrollo de aplicaciones móviles,
+                                    tiendas en linea, websites y marketing... nos enfocamos detalladamente en los requerimientos
+                                    únicos de cada proyecto y cada ciente, para asi poder brindar un servicio y atencion totalmente
+                                    personalizado. Gracias a la tecnologia, nos permite poder trabajar con clintes desde Scramento, California, US
+                                    hasta Cancun, Quintana Roo, Mexico.
+                                </p>
+                                <p>
+                                    Las apps y su utilización ha ido en constante crecimiento, ahora los clientes esperan mas de usted
+                                    como líder empresarial. Hoy el desarrollo de apps para moviles representa no solo la innovación de
+                                    un negocio, también consolida su presencia online utilizando las nuevas tecnologías.
+                                </p>
                                 <div className="read-more-btn mt--40">
-                                    <a className="btn-default" href="#"><span>More About Us</span></a>
+                                    <a className="btn-default" href="#"><span>Conocenos mas...</span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>
         </div>
     )
 }

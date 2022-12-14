@@ -7,7 +7,7 @@ const PricingFive = () => {
         <div className="row row--15">
 
             {/* Start PRicing Table Area  */}
-            <div className="col-lg-4 col-md-6 col-12">
+            {/* <div className="col-lg-4 col-md-6 col-12">
                 <div className="rn-pricing style-5">
                     <div className="pricing-table-inner">
                         <div className="pricing-header">
@@ -34,11 +34,11 @@ const PricingFive = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* End PRicing Table Area  */}
 
             {/* Start PRicing Table Area  */}
-            <div className="col-lg-4 col-md-6 col-12">
+            {/* <div className="col-lg-4 col-md-6 col-12">
                 <div className="rn-pricing style-5 active">
                     <div className="pricing-table-inner">
                         <div className="pricing-header">
@@ -65,34 +65,35 @@ const PricingFive = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* End PRicing Table Area  */}
 
             {/* Start PRicing Table Area  */}
-            <div className="col-lg-4 col-md-6 col-12">
+            <div className="col-lg-12 col-md-12 col-12">
                 <div className="rn-pricing style-5">
                     <div className="pricing-table-inner">
                         <div className="pricing-header">
-                            <h4 className="title">Advanced Plan</h4>
+                            <h4 className="title">Tienda en linea</h4>
                             <div className="pricing">
                                 <div className="price-wrapper">
                                     <span className="currency">$</span>
-                                    <span className="price">500</span>
+                                    <span className="price">9,600</span>
                                 </div>
-                                <span className="subtitle">USD Per Month</span>
+                                <span className="subtitle">mxn</span>
                             </div>
                         </div>
                         <div className="pricing-body">
                             <ul className="list-style--1">
-                                <li><FiCheck /> 50 PPC Campaigns</li>
-                                <li><FiCheck /> SEO Marketing</li>
-                                <li><FiCheck /> Marketing Agency</li>
-                                <li><FiCheck /> Seo Friendly</li>
-                                <li><FiCheck /> Application Manage</li>
+                                <li><FiCheck /> Tienda profesional con carrito de compras</li>
+                                <li><FiCheck /> Dominio personalizado (www.TuNegocio.com)</li>
+                                <li><FiCheck /> 6 cuentas de email</li>
+                                <li><FiCheck /> Hosting y Certificado SSL por 1 año</li>
+                                <li><FiCheck /> Integracion de Metodos de pago (MercadoPago o PayPal)</li>
+                                <li><FiCheck /> Registro en Google Bussines </li>
                             </ul>
                         </div>
                         <div className="pricing-footer">
-                            <a className="btn-default btn-border" href="#pricing">Purchase Now</a>
+                            <a className="btn-default btn-border" href="#pricing">COMPRAR</a>
                         </div>
                     </div>
                 </div>

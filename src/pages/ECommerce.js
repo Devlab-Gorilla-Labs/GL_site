@@ -24,9 +24,10 @@ import ScrollAnimation from "react-animate-on-scroll";
 import TimelineOne from '../elements/timeline/TimelineOne';
 import TestimonialOne from '../elements/testimonial/TestimonialOne';
 import PricingOne from '../elements/pricing/PricingOne';
+import PricingFive from '../elements/pricing/PricingFive'
 import { FcClock, FcLike, FcMoneyTransfer } from 'react-icons/fc';
-
-
+import PortfolioOne from '../elements/portfolio/PortfolioOne';
+import BrandTwo from '../elements/brand/BrandTwo';
 
 
 const BannerData = [
@@ -112,6 +113,25 @@ const ECommerce = () => {
                 </div>
                 {/* End Service Area  */}
 
+                {/* Start Portfolio Area  */}
+                <div className="rwt-portfolio-area rn-section-gapBottom">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <SectionTitle
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Portafolio"
+                                    title="¡Checa Nuestros Mas Recientes Proyectos!"
+                                    description="Trabajamos con los mejores, ofreciendo siempre el mejor servicio y la tecnologia mas reciente"
+                                />
+                            </div>
+                        </div>
+                        <PortfolioOne Column="col-lg-4 col-md-6 col-12 mt--30 portfolio" />
+                    </div>
+                </div>
+                {/* End Portfolio Area  */}
+
 
 
                 <div className="rwt-timeline-area rn-section-gap">
@@ -168,10 +188,34 @@ const ECommerce = () => {
                                 />
                             </div>
                         </div>
-                        <PricingOne />
+                        {/* <PricingOne /> */}
+                        <div className="row mt--30">
+                            <div className="col-lg-8 offset-lg-2">
+                                <AdvancePricingOne />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {/* End Elements Area  */}
+
+                {/* Start Brand Area  */}
+                <div className="rwt-brand-area pb--5 pt--60">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="section-title text-center">
+                                    <h3 className="title">Algunos de nuestros socios...</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <BrandTwo brandStyle="brand-style-2" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* End Brand Area  */}
 
 
                 {/* <FooterTwo /> */}
