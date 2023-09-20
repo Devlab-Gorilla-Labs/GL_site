@@ -29,6 +29,7 @@ import TestimonialThree from '../elements/testimonial/TestimonialThree';
 import PricingThree from '../elements/pricing/PricingThree';
 import PortfolioOne from '../elements/portfolio/PortfolioOne';
 import BrandTwo from '../elements/brand/BrandTwo';
+import AdvancePricingWeb from '../elements/advancePricing/AdvancePricingWeb';
 
 
 
@@ -100,14 +101,14 @@ const WebDesign = () => {
                                 <SectionTitle
                                     subtitle="Website"
                                     textAlign="text-center"
-                                    title="Tu Negocio Necesita Un Website"
+                                    title="Digitaliza tu Negocio"
                                 />
                             </div>
                         </div>
 
                         <Split2
                             img="./images/split/web-945x709.svg"
-                            title="¿Cuentas ya con sitio web?"
+                            title="¿Por que necesitas un website profesional?"
                             desc="Tener una página web, permitirá plasmar todos tu contenido en ella y todo lo que quieras reflejar.
                             El diseño de tu web, le dará a tus futuros clientes una imagen de cómo es la marca.
                             El consumidor comprenderá el mensaje que quieres transmitir y mostrarás una imagen sólida y coherente."
@@ -132,8 +133,8 @@ const WebDesign = () => {
                 </div>
                 {/* End Service Area  */}
 
-                 {/* Start Portfolio Area  */}
-                 <div className="rwt-portfolio-area rn-section-gapBottom">
+                {/* Start Portfolio Area  */}
+                <div className="rwt-portfolio-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -199,6 +200,7 @@ const WebDesign = () => {
                 </div>
                 {/* End Elements Area  */}
 
+
                 {/* Start Elements Area  */}
                 <div className="rwt-pricing-area rn-section-gap">
                     <div className="container">
@@ -206,19 +208,25 @@ const WebDesign = () => {
                             <div className="col-lg-12">
                                 <SectionTitle
                                     textAlign="text-center"
+                                    radiusRounded=""
                                     subtitle="Precios"
+                                    description=""
                                 />
                             </div>
                         </div>
                         {/* <PricingOne /> */}
-                        <PricingThree />
-
+                        <div className="row mt--30">
+                            <div className="col-lg-8 offset-lg-2">
+                                <AdvancePricingWeb />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {/* End Elements Area  */}
 
-                  {/* Start Brand Area  */}
-                  <div className="rwt-brand-area pb--5 pt--60">
+
+                {/* Start Brand Area  */}
+                <div className="rwt-brand-area pb--5 pt--60">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">

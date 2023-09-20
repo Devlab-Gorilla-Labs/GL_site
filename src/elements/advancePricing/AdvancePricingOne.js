@@ -11,7 +11,7 @@ const AdvancePricingOne = () => {
                             <h3 className="main-title">Tienda en Linea.</h3>
                             <p className="description">Lanza tu tienda digital profesional, y empieza a vender 24/7.</p>
                             <div className="price-wrapper">
-                                <span className="price-amount">$9,600 <sup>/mxn</sup></span>
+                                <span className="price-amount">$25,500 <sup>/mxn +IVA</sup></span>
                             </div>
                             <div className="pricing-btn-group">
                                 <button className="btn-default">COTIZAR</button>

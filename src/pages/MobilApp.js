@@ -27,6 +27,7 @@ import PricingOne from '../elements/pricing/PricingOne';
 import { FcClock, FcLike, FcMoneyTransfer } from 'react-icons/fc';
 import PortfolioOne from '../elements/portfolio/PortfolioOne';
 import BrandTwo from '../elements/brand/BrandTwo';
+import AdvancePricingApps from '../elements/advancePricing/AdvancePricingApps';
 
 
 
@@ -176,7 +177,7 @@ const MobilApp = () => {
                 </div>
                 {/* End Elements Area  */}
 
-                {/* Start Elements Area  */}
+                {/* Start PRICING Area  */}
                 <div className="rwt-pricing-area rn-section-gap">
                     <div className="container">
                         <div className="row mb--40 mb_sm--0">
@@ -189,10 +190,10 @@ const MobilApp = () => {
                                 />
                             </div>
                         </div>
-                        <PricingOne />
+                        <AdvancePricingApps />
                     </div>
                 </div>
-                {/* End Elements Area  */}
+                {/* End PRICING Area  */}
 
                 {/* Start Brand Area  */}
                 <div className="rwt-brand-area pb--5 pt--60">
