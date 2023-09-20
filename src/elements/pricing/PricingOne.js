@@ -2,6 +2,7 @@ import React from 'react';
 import { FiCheck } from "react-icons/fi";
 
 const PricingOne = () => {
+    
     return (
         <div className="row row--30">
             {/* Start PRicing Table Area  */}

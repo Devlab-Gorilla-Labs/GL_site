@@ -19,27 +19,27 @@ const PortfolioDetailsContent = ({ data }) => {
                                             <h4 className="title">{data.title}</h4>
                                             <div className="single-list-wrapper">
                                                 <div className="single-list">
-                                                    <label>Date:</label>
+                                                    <label>Fecha:</label>
                                                     <span>{data.date}</span>
                                                 </div>
                                                 <div className="single-list">
-                                                    <label>Client:</label>
+                                                    <label>Cliente:</label>
                                                     <span>{data.client}</span>
                                                 </div>
                                                 <div className="single-list">
-                                                    <label>Category:</label>
+                                                    <label>Categoria:</label>
                                                     <span>{data.category}</span>
                                                 </div>
                                             </div>
                                             <div className="view-btn mt--50">
-                                                <a className="btn-default btn-large round" href={`${data.btn.link}`}>{data.btn.buttontext}</a>
+                                                <a className="btn-default btn-large round" target="_blank" href={`${data.btn.link}`}>{data.btn.buttontext}</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 mt_md--30 mt_sm--30">
                                         <div className="content-right">
                                             <h5 className="subtitle">{data.subtitle}</h5>
-                                            <div className="description" dangerouslySetInnerHTML={{__html: data.body}}></div>
+                                            <div className="description" dangerouslySetInnerHTML={{ __html: data.body }}></div>
                                         </div>
                                     </div>
                                 </div>

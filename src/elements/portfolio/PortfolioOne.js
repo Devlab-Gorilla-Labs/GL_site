@@ -6,22 +6,21 @@ import { FaSpinner } from "react-icons/fa";
 const filters = [
     {
       id: 1,
-      text: "All",
+      text: "Todos",
     },
     {
       id: 2,
-      text: "design",
+      text: "Website",
     },
     {
       id: 3,
-      text: "art",
+      text: "E-Commerce",
     },
     {
       id: 4,
-      text: "development",
+      text: "Apps",
     }
 ];
-
 
 
 const alldata = PortfolioData;
@@ -32,6 +31,7 @@ const PortfolioOne = ({ Column }) => {
     const [noMorePost, setNoMorePost] = useState(false);
     const [activeFilter, setActiveFilter] = useState("");
     const [visibleItems, setVisibleItems] = useState([]);
+
     useEffect(() => {
         setActiveFilter(filters[0].text.toLowerCase());
         setVisibleItems(getAllItems.filter((item) => item.id <= dataVisibleCount));
@@ -46,7 +46,7 @@ const PortfolioOne = ({ Column }) => {
         } else {
           tempData = getAllItems.filter(
             (data) =>
-              data.category === e.target.textContent.toLowerCase() &&
+              data.category.toLowerCase() === e.target.textContent.toLowerCase() &&
               data.id <= dataVisibleCount
           );
         }
@@ -115,7 +115,7 @@ const PortfolioOne = ({ Column }) => {
                             "No Item Here"
                             ) : (
                             <span>
-                                Load More 
+                                Cargar Mas 
                                 <span className="icon">
                                     <FaSpinner />
                                 </span>

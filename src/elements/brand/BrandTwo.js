@@ -1,21 +1,7 @@
 import React from 'react';
 
 const BrandList = [
-    {
-        image: './images/brand/brand-01.png'
-    },
-    {
-        image: './images/brand/brand-02.png'
-    },
-    {
-        image: './images/brand/brand-03.png'
-    },
-    {
-        image: './images/brand/brand-04.png'
-    },
-    {
-        image: './images/brand/brand-05.png'
-    },
+    
     {
         image: './images/brand/brand-06.png'
     },
@@ -26,34 +12,7 @@ const BrandList = [
         image: './images/brand/brand-08.png'
     },
     {
-        image: './images/brand/brand-01.png'
-    },
-    {
-        image: './images/brand/brand-02.png'
-    },
-    {
-        image: './images/brand/brand-03.png'
-    },
-    {
-        image: './images/brand/brand-04.png'
-    },
-    {
-        image: './images/brand/brand-05.png'
-    },
-    {
-        image: './images/brand/brand-06.png'
-    },
-    {
-        image: './images/brand/brand-07.png'
-    },
-    {
-        image: './images/brand/brand-08.png'
-    },
-    {
-        image: './images/brand/brand-07.png'
-    },
-    {
-        image: './images/brand/brand-08.png'
+        image: './images/brand/brand-09.png'
     },
 ]
 

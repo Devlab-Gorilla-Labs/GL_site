@@ -25,7 +25,9 @@ import TimelineOne from '../elements/timeline/TimelineOne';
 import TestimonialOne from '../elements/testimonial/TestimonialOne';
 import PricingOne from '../elements/pricing/PricingOne';
 import { FcClock, FcLike, FcMoneyTransfer } from 'react-icons/fc';
-
+import PortfolioOne from '../elements/portfolio/PortfolioOne';
+import BrandTwo from '../elements/brand/BrandTwo';
+import AdvancePricingApps from '../elements/advancePricing/AdvancePricingApps';
 
 
 
@@ -64,7 +66,7 @@ const points = [
 const MobilApp = () => {
     return (
         <>
-            <SEO title="E-Commerce Web" />
+            <SEO title="App movil" />
             <main className="page-wrapper">
 
                 <HeaderTopBar />
@@ -112,6 +114,25 @@ const MobilApp = () => {
                 </div>
                 {/* End Service Area  */}
 
+                 {/* Start Portfolio Area  */}
+                 <div className="rwt-portfolio-area rn-section-gapBottom">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <SectionTitle
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Portafolio"
+                                    title="¡Checa Nuestros Mas Recientes Proyectos!"
+                                    description="Trabajamos con los mejores, ofreciendo siempre el mejor servicio y la tecnologia mas reciente"
+                                />
+                            </div>
+                        </div>
+                        <PortfolioOne Column="col-lg-4 col-md-6 col-12 mt--30 portfolio" />
+                    </div>
+                </div>
+                {/* End Portfolio Area  */}
+
 
 
                 <div className="rwt-timeline-area rn-section-gap">
@@ -150,12 +171,13 @@ const MobilApp = () => {
                                 />
                             </div>
                         </div>
+                        {/* TESTIMONIOS de clientes */}
                         <TestimonialOne column="col-lg-4 col-md-6 col-12 mt--30" teamStyle="card-style-default testimonial-style-one" />
                     </div>
                 </div>
                 {/* End Elements Area  */}
 
-                {/* Start Elements Area  */}
+                {/* Start PRICING Area  */}
                 <div className="rwt-pricing-area rn-section-gap">
                     <div className="container">
                         <div className="row mb--40 mb_sm--0">
@@ -168,10 +190,29 @@ const MobilApp = () => {
                                 />
                             </div>
                         </div>
-                        <PricingOne />
+                        <AdvancePricingApps />
                     </div>
                 </div>
-                {/* End Elements Area  */}
+                {/* End PRICING Area  */}
+
+                {/* Start Brand Area  */}
+                <div className="rwt-brand-area pb--5 pt--60">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="section-title text-center">
+                                    <h3 className="title">Algunos de nuestros socios...</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <BrandTwo brandStyle="brand-style-2" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* End Brand Area  */}
 
 
                 {/* <FooterTwo /> */}
