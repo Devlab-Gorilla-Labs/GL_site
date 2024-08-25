@@ -30,7 +30,10 @@ const Home = () => {
     return (
         <>
             <SEO title="Gorilla-Labs" />
+
             <main className="page-wrapper">
+
+
                 <HeaderTopBar />
                 <HeaderTwo btnStyle="round" HeaderSTyle="header-not-transparent" />
 

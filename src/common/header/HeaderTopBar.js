@@ -17,18 +17,19 @@ const HeaderTopBar = () => {
                         <div className="header-right">
                             <div className="address-content">
                                 {/* <p><FiMapPin /><span>Cd Juárez, México.</span></p> */}
-                                <p><FaWhatsapp /><span><a href="https://wa.me/message/WDRRLVJVFBUQE1">+52 (656) 112 1142</a></span></p>
-                                <p><FiPhone /><span><a href="tel:+526561121142">+52 (656) 112 1142</a></span></p>
-                                {/* <p><FiMail /><span><a href="mailto:info@gorilla-labs.com">info@Gorilla-Labs.com</a></span> </p> */}
+                                {/* <p><FaWhatsapp /><span><a href="https://wa.me/message/WDRRLVJVFBUQE1">+52 (656) 112 1142</a></span></p> */}
+                                <p> <img src="./images/icons/mx.png" alt="" /> <span><a href="tel:+526561121142">+52 (656) 112 1142</a></span></p>
+                                <p> <img src="./images/icons/usa.png" alt="" /> <span><a href="tel:+19166040727">+1 (916) 604 0727</a></span></p>
+                                {/* <p><FiMail /><span><a href="mailto:info@gorilabs.dev">info@Gorilabs.dev</a></span> </p> */}
                             </div>
-                            {/* <div className="social-icon-wrapper">
+                            <div className="social-icon-wrapper">
                                 <ul className="social-icon social-default icon-naked">
                                     <li><a href="https://www.facebook.com/gorillabs"><FiFacebook /></a></li>
-                                    <li><Link to="twitter.com"><FiTwitter /></Link></li>
+                                    {/* <li><Link to="twitter.com"><FiTwitter /></Link></li> */}
                                     <li><Link to="instagram.com"><FiInstagram /></Link></li>
-                                    <li><Link to="linkdin.com"><FiLinkedin /></Link></li>
+                                    {/* <li><Link to="linkdin.com"><FiLinkedin /></Link></li> */}
                                 </ul>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
