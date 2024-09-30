@@ -50,7 +50,7 @@ const Home = () => {
                                                 "Website",
                                                 "E-Commerce",
                                                 "App Mobil",
-                                                "Marketing.",
+                                                // "Marketing.",
                                             ]}
                                             typeSpeed={80}
                                             backSpeed={5}
